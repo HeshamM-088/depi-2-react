@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@plugin "daisyui/theme" {
+  name: "darkMode";
+  default: false;
+  --color-mainColor: black;
+  --color-secondary: teal;
+}
+
+@theme {
+  --color-mainColor: white;
+  --color-secondColor: blue;
+  --color-mainBg: white;
+}
